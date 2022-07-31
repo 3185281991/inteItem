@@ -1,0 +1,50 @@
+@import url("./normalize.css");
+html,
+body,
+div,
+span,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Microsoft Yahei", 微软雅黑, 宋体, Tahoma, Arial, Helvetica,
+    STHeiti;
+  font-size: 12px;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+i {
+  font-style: normal;
+}
