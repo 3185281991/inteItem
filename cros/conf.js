@@ -1,7 +1,7 @@
 var config = {
-  SecretId: "AKIDKSLzNWP3RaT7VdW9WeXAXeW0EDwQecLo",
-  SecretKey: "FEySgfOr53lERO6YkhPr8AxUlnZ6NPBh",
-  Bucket: "pimg-1310724460",
+  SecretId: "密钥id",
+  SecretKey: "密钥",
+  Bucket: "存储桶名称",
   Region: "ap-nanjing",
   // Uin: process.env.Uin,
 };
