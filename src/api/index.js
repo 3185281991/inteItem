@@ -1,7 +1,7 @@
 import axios from "axios";
 export default function request(config) {
   const instance = axios.create({
-    baseURL: "http://124.221.69.31:9999",
+    baseURL: "http://服务器地址:9999",
     timeout: 3000,
   });
   instance.interceptors.request.use(
