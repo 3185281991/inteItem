@@ -11,7 +11,7 @@ const http = require("http");
 const app = new koa();
 
 app.use(async (ctx, next) => {
-  let allowCros = ["http://localhost:86", "http://localhost:88"];
+  let allowCros = ["http://服务器地址:86", "http://服务器地址:88"];
   let index = ctx.header.referer.indexOf("/", 8);
   let url = ctx.header.referer.substr(0, index);
   if (allowCros.includes(url)) {
